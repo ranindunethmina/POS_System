@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    overflow-x: hidden;
+    margin: 20;
+}
+form {
+    width: 800px;
+}
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input,select {
+    display: block;
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 5px;
+}
+#customerTable, #itemTable {
+    width: 60%;
+    border-collapse: collapse;
+    position: relative;
+    top: -370px;
+    left: 600px;
+    th{
+        background-color: rgb(255, 51, 51);
+        color: white;
+    }
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#orderTable{
+    width: 90%;
+    border-collapse: collapse;
+    position: relative;
+    top: -850px;
+    th{
+        background-color: aqua;
+        color: white;
+    }
+}
+.edit-mode {
+    background-color: #ffffcc;
+}
+.editMode {
+    background-color: lightseagreen;
+}
+
+/* navbar */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(58, 189, 232);
+    padding: 12px;
+}
+.navbar > a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: rgb(243, 61, 61);
+}
+
+/* customer form */
+
+/* item form */
+
+/* order form */
+#item-Select{
+    position: relative;
+    top: -500px;
+    left: 600px;
+}
+
+#total{
+    position: relative;
+    top: -1000px;
+    left: 1200px;
+}
